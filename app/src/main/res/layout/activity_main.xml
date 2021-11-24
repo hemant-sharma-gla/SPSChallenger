@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCEFF4"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="303dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="654dp"
+        android:padding="10dp"
+        android:text="SPSChallenger"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#171616"
+        android:textColorHighlight="#171515"
+        android:textColorHint="#292727"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="287dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="571dp"
+        android:text="Term and Condition : "
+        android:textAlignment="inherit"
+        android:textAllCaps="true"
+        android:textColor="#292626"
+        android:textColorHighlight="#1E1C1C"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="441dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="110dp"
+        android:padding="6dp"
+        android:text="&quot;Welcome to use the services of SPSChallenger.These Terms of Service and Conditions apply to the use of all services provided by SPSChallenger,including games developed and/or published by SPSChallenger,SPSChallenger games'application, SPSChallenger publishing Portal,SPSChallenger Developer Center and other services,such as applications or any social functions of the aforementioned services or any other services SPSChallenger has attached these Terms and Services. These Terms govern the relationship between you (You or User) and SPSChallenger regarding the use of the Services. By default the Services support only one player account per game on a supported device. Additionally, the Services may not support using a single account across multiple devices. You acknowledge and agree that you are solely responsible for your actions in the Services and actions made in the Services using your player account or device.By downloading,installing,accessing or using any part of the Services You agree to these Terms and accept to be bound by them. These Terms affect your legal rights and obligations, so if You do not agree to the Terms, You may not use Our Services."
+        android:textAlignment="inherit"
+        android:textColor="#252424"
+        android:textColorHighlight="#2E2B2B"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="42dp"
+        android:checked="true"
+        android:text="I agree, please move further"
+        android:textColor="#121010"
+        android:textColorHighlight="#292626"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="40dp"
+        android:text="Continue"
+        android:textAlignment="inherit"
+        android:textAllCaps="true"
+        android:textColor="#221F1F"
+        android:textColorHighlight="#302D2D"
+        android:textStyle="bold" />
+</RelativeLayout>

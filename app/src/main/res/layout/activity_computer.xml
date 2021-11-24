@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0DCF6"
+    tools:context=".ComputerActivity"
+    android:id="@+id/computer_Act">
+
+    <ImageView
+        android:id="@+id/home_page"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="317dp"
+        android:layout_marginBottom="651dp"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/restart_game"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="653dp"
+        app:srcCompat="@drawable/ic_baseline_change_circle_24" />
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="226dp"
+        android:layout_height="141dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="431dp"
+        android:background="#FFFFFF"
+        android:padding="5dp"
+        android:text="Player1"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#251E1E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/computer"
+        android:layout_width="133dp"
+        android:layout_height="139dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="430dp"
+        android:background="#FCFCFC"
+        android:text="Computer"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#191616"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/rock_select"
+        android:layout_width="59dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="344dp"
+        android:layout_marginBottom="442dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/rock"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/paper_select"
+        android:layout_width="61dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="441dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/p"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/scissor_select"
+        android:layout_width="63dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="433dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/csissors"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/winner_tv"
+        android:layout_width="130dp"
+        android:layout_height="129dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="71dp"
+        android:background="#FAF6F6"
+        android:padding="7dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#252424"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="220dp"
+        android:background="#FFFFFF"
+        android:padding="7dp"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1E1C1C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/counter1"
+        android:layout_width="90dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="360dp"
+        android:background="#FFFFFF"
+        android:padding="7dp"
+        android:text="Counter1"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#0B0A0A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/count1_res"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="362dp"
+        android:background="#FFFFFF"
+        android:padding="5dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#090808" />
+
+    <TextView
+        android:id="@+id/counter2"
+        android:layout_width="90dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="355dp"
+        android:background="#FFFFFF"
+        android:padding="7dp"
+        android:text="counter2"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#191717"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/count2_res"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="359dp"
+        android:background="#FFFFFF"
+        android:padding="2dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1B1919"
+        android:textStyle="bold" />
+
+</RelativeLayout>

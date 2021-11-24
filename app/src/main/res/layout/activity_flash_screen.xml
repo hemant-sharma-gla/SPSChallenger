@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEF1F4"
+    tools:context=".FlashScreenActivity"
+    android:id="@+id/flashScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="406dp"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="164dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="324dp"
+        android:background="#C12847F3"
+        android:paddingTop="6dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FCFCFC"
+        android:textColorHighlight="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/splash_Login_btn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="101dp"
+        android:background="#2196F3"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/startWithLogin"
+        android:layout_width="219dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="204dp"
+        android:background="#D5E8FD"
+        android:padding="1sp"
+        android:text="Start with login"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#050505"
+        android:textColorHighlight="#61AAE4"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
