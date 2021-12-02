@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/account.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/customtoast.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/forgetpass_layout.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/login_layout.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/loginbutton_selector.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/text_selector.xml" value="0.209375" />
         <entry key="app/src/main/res/layout/activity_computer.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_flash_screen.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_friend.xml" value="0.25" />
@@ -13,6 +18,7 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="app/src/main/res/layout/app_bar_navigation.xml" value="0.22" />
         <entry key="app/src/main/res/layout/content_navigation.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.10552536231884058" />

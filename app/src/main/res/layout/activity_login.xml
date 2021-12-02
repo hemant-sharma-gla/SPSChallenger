@@ -67,17 +67,22 @@
 
     <TextView
         android:id="@+id/forgetpassword"
-        android:layout_width="wrap_content"
+        android:layout_width="154dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/login_btn"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
 
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="215dp"
+        android:paddingTop="4dp"
         android:text="Forget Password?"
-        android:textColor="@color/white" />
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/others"
@@ -124,5 +129,29 @@
 
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="284dp"
+        android:background="#9EE6F1"
+        android:backgroundTint="#10E3C7"
+        android:text="SignUp" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="291dp"
+        android:text="or"
+        android:textAllCaps="true"
+        android:textColor="#333131" />
 
 </RelativeLayout>
