@@ -16,7 +16,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="317dp"
         android:layout_marginBottom="651dp"
-        app:srcCompat="@drawable/ic_baseline_home_24" />
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_home_24"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/restart_game"
@@ -26,7 +28,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="653dp"
-        app:srcCompat="@drawable/ic_baseline_change_circle_24" />
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_change_circle_24"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/player1"
@@ -46,7 +50,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/computer"
+        android:id="@+id/computerPly"
         android:layout_width="133dp"
         android:layout_height="139dp"
         android:layout_alignParentEnd="true"
@@ -107,7 +111,7 @@
         android:layout_marginBottom="71dp"
         android:background="#FAF6F6"
         android:padding="7dp"
-        android:text=""
+        android:text="No Winner"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#252424"

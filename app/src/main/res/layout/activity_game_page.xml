@@ -12,7 +12,7 @@
         android:id="@+id/textView4"
         android:layout_width="114dp"
         android:layout_height="36dp"
-        android:layout_above="@+id/button2"
+        android:layout_above="@+id/friendBtn"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="152dp"
         android:layout_marginBottom="229dp"
@@ -32,10 +32,10 @@
         app:layout_constraintVertical_bias="0.047" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/friendBtn"
         android:layout_width="251dp"
         android:layout_height="59dp"
-        android:layout_above="@+id/button3"
+        android:layout_above="@+id/computerBtn"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="121dp"
@@ -49,7 +49,7 @@
         tools:layout_editor_absoluteY="202dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/computerBtn"
         android:layout_width="255dp"
         android:layout_height="62dp"
         android:layout_alignParentEnd="true"

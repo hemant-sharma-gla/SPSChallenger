@@ -39,6 +39,13 @@ public class SignUp_Activity extends AppCompatActivity {
         signUpBtn = findViewById(R.id.signUpBtn);
         askLoginBtn = findViewById(R.id.already_user);
 
+        askLoginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SignUp_Activity.this,LoginActivity.class));
+            }
+        });
+
         signUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,6 +79,7 @@ public class SignUp_Activity extends AppCompatActivity {
                             if(!task.isComplete()){
                                 Toast.makeText(SignUp_Activity.this,"SignUp Failed",Toast.LENGTH_SHORT).show();
                             } else {
+                                Toast.makeText(SignUp_Activity.this,"SignUp Successfully",Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(SignUp_Activity.this, LoginActivity.class));
                             }
                         }
