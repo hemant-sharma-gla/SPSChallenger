@@ -18,6 +18,7 @@ public class GamePage extends AppCompatActivity {
         setContentView(R.layout.activity_game_page);
 
         playFriend = (Button) findViewById(R.id.friendBtn);
+
         playComputer = (Button) findViewById(R.id.computerBtn);
 
         playFriend.setOnClickListener(new View.OnClickListener() {
@@ -27,12 +28,15 @@ public class GamePage extends AppCompatActivity {
                 startActivity(intent1);
             }
         });
-        playComputer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent2 = new Intent(GamePage.this,ComputerActivity.class);
-                startActivity(intent2);
-            }
-        });
+        playComputer.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(GamePage.this,ComputerActivity.class);
+                        startActivity(intent);
+
+                    }
+                }
+        );
     }
 }

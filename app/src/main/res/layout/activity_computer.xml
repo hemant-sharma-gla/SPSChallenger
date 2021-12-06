@@ -2,55 +2,55 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/computer_Act"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B0DCF6"
-    tools:context=".ComputerActivity"
-    android:id="@+id/computer_Act">
+    app:barrierMargin="2dp"
+    tools:context=".ComputerActivity">
 
-    <ImageView
+    <Button
         android:id="@+id/home_page"
-        android:layout_width="66dp"
-        android:layout_height="56dp"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="317dp"
-        android:layout_marginBottom="651dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="659dp"
+        android:background="@drawable/ic_baseline_home_24"
         android:clickable="true"
-        app:srcCompat="@drawable/ic_baseline_home_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/restart_game"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="656dp"
+        android:background="@drawable/ic_baseline_change_circle_24"
+        android:clickable="true"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
-        android:id="@+id/restart_game"
-        android:layout_width="63dp"
-        android:layout_height="56dp"
+        android:id="@+id/playerChoice"
+        android:layout_width="133dp"
+        android:layout_height="137dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="653dp"
-        android:clickable="true"
-        app:srcCompat="@drawable/ic_baseline_change_circle_24"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/player1"
-        android:layout_width="226dp"
-        android:layout_height="141dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="180dp"
-        android:layout_marginBottom="431dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="433dp"
         android:background="#FFFFFF"
         android:padding="5dp"
-        android:text="Player1"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#251E1E"
         android:textSize="16sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/computerPly"
+    <ImageView
+        android:id="@+id/computerChoice"
         android:layout_width="133dp"
         android:layout_height="139dp"
         android:layout_alignParentEnd="true"
@@ -58,47 +58,46 @@
         android:layout_marginEnd="3dp"
         android:layout_marginBottom="430dp"
         android:background="#FCFCFC"
-        android:text="Computer"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#191616"
         android:textSize="16sp"
         android:textStyle="bold" />
 
-    <ImageView
+    <Button
         android:id="@+id/rock_select"
-        android:layout_width="59dp"
-        android:layout_height="75dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="344dp"
-        android:layout_marginBottom="442dp"
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="529dp"
+        android:background="@drawable/rock"
         android:clickable="true"
-        app:srcCompat="@drawable/rock"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-    <ImageView
+    <Button
         android:id="@+id/paper_select"
-        android:layout_width="61dp"
-        android:layout_height="72dp"
+        android:layout_width="56dp"
+        android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="269dp"
-        android:layout_marginBottom="441dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="463dp"
+        android:background="@drawable/p"
         android:clickable="true"
-        app:srcCompat="@drawable/p"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <ImageView
+    <Button
         android:id="@+id/scissor_select"
-        android:layout_width="63dp"
-        android:layout_height="83dp"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="196dp"
-        android:layout_marginBottom="433dp"
+        android:layout_marginEnd="341dp"
+        android:layout_marginBottom="401dp"
+        android:background="@drawable/csissors"
         android:clickable="true"
-        app:srcCompat="@drawable/csissors"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -126,7 +125,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="220dp"
-        android:background="#FFFFFF"
         android:padding="7dp"
         android:text="Result"
         android:textAlignment="center"
@@ -142,7 +140,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="313dp"
-        android:layout_marginBottom="360dp"
+        android:layout_marginBottom="309dp"
         android:background="#FFFFFF"
         android:padding="7dp"
         android:text="Counter1"
@@ -152,13 +150,13 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/count1_res"
+        android:id="@+id/count1_comp"
         android:layout_width="65dp"
         android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="243dp"
-        android:layout_marginBottom="362dp"
+        android:layout_marginBottom="314dp"
         android:background="#FFFFFF"
         android:padding="5dp"
         android:text="0"
@@ -172,8 +170,8 @@
         android:layout_height="41dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="355dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="310dp"
         android:background="#FFFFFF"
         android:padding="7dp"
         android:text="counter2"
@@ -183,13 +181,13 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/count2_res"
+        android:id="@+id/count2_comp"
         android:layout_width="65dp"
         android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="359dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="313dp"
         android:background="#FFFFFF"
         android:padding="2dp"
         android:text="0"
@@ -197,5 +195,37 @@
         android:textAllCaps="true"
         android:textColor="#1B1919"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/playerTxt"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="576dp"
+        android:text="Player"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#0E0E0E"
+        android:textColorHighlight="#0FEACC"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/computerTxt"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="593dp"
+        android:text="Computer"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#090808"
+        android:textColorHighlight="#0EE6C9"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>
